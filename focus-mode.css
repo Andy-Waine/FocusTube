@@ -25,3 +25,28 @@ ytd-mini-guide-renderer {
 #guide-button {
   display: none !important;
 }
+
+#buttons {
+  display: none !important;
+}
+
+#masthead-container {
+    top: 25% !important;
+    #start {
+        display: none !important;
+    }
+}
+
+/* #container {
+    height: 75px !important;
+    width: 600px !important;
+    Position: absolute;
+    Top: 50%;
+}
+
+#search {
+    height: 75px !important;
+    width: 600px !important;
+    Position: absolute;
+    Top: 50%;
+} */
