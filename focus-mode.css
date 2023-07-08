@@ -31,7 +31,8 @@ ytd-mini-guide-renderer {
 }
 
 #masthead-container {
-    top: 25% !important;
+  padding-top: 245px !important;
+  padding-left: 15% !important;
     #start {
         display: none !important;
     }
@@ -50,3 +51,46 @@ ytd-mini-guide-renderer {
     Position: absolute;
     Top: 50%;
 } */
+
+/* media queries */
+@media screen and (min-width: 1100px) {
+  #masthead-container {
+    padding-left: 18% !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #masthead-container {
+    padding-left: 20% !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #masthead-container {
+    padding-left: 25% !important;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  #masthead-container {
+    padding-left: 28% !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #masthead-container {
+    padding-left: 30% !important;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #masthead-container {
+    padding-left: 32% !important;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  #masthead-container {
+    padding-left: 34% !important;
+  }
+}
