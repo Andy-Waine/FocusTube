@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "FocusTube",
     "description": "Eliminate distractions such as recommended videos, like count, and comments while browsing YouTube.",
-    "version": "1.0",
+    "version": "0.1",
     "icons": {
       "16": "images/logo-white.PNG",
       "32": "images/logo-white.PNG",
