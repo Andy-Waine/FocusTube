@@ -11,7 +11,7 @@ main > :last-child {
 } */
 
 html {
-  overflow-y: hidden;
+  overflow-y: auto;
   overflow-x: hidden; 
 }
 
@@ -53,13 +53,33 @@ ytd-mini-guide-renderer {
   display: none !important;
 }
 
+/* recommended videos while watching (compact view) */
+.ytd-watch-next-secondary-results-renderer {
+  display: none !important;
+}
+
 /* video description */
 #bottom-row {
   display: none !important;
 }
 
-/* comments section */
-.ytd-item-section-renderer {
+.yt-chip-cloud-renderer {
+  display: none !important;
+}
+
+.ytd-comments {
+  display: none !important;
+}
+
+.ytd-comment-renderer {
+  display: none !important;
+}
+
+.ytd-comment-thread-renderer {
+  display: none !important;
+}
+
+.ytd-menu-renderer {
   display: none !important;
 }
 
