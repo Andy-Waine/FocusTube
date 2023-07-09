@@ -15,9 +15,6 @@ html {
   overflow-x: hidden; 
 }
 
-/* body {
-
-} */
 
 ytd-rich-grid-renderer {
   display: none !important;
@@ -95,6 +92,11 @@ ytd-mini-guide-renderer {
 
 /* Subscribe Button */
 .ytd-subscribe-button-renderer {
+  display: none !important;
+}
+
+/* Video reqs that appear at the end of a video */
+.ytp-endscreen-content {
   display: none !important;
 }
 

@@ -1,11 +1,9 @@
 chrome.runtime.onInstalled.addListener(() => {
-    chrome.action.setBadgeText({
-      text: 'OFF'
-    });
+  // Set the action badge image to './images/logo-white.PNG' while installed
+     
 });
   
 const landingPage = 'https://www.youtube.com/';
-const searchPage = 'https://www.youtube.com/results?';
 
 // When the user clicks on the extension action
 chrome.action.onClicked.addListener(async (tab) => {
