@@ -10,6 +10,15 @@ main > :last-child {
   margin-bottom: min(10vmax, 10rem);
 } */
 
+html {
+  overflow-y: hidden;
+  overflow-x: hidden; 
+}
+
+/* body {
+
+} */
+
 ytd-rich-grid-renderer {
   display: none !important;
 }
@@ -31,26 +40,43 @@ ytd-mini-guide-renderer {
 }
 
 #masthead-container {
-  padding-top: 245px !important;
+  /* padding-top: 245px !important; */
+  position: absolute !important;
   padding-left: 15% !important;
     #start {
         display: none !important;
     }
 }
 
-/* #container {
-    height: 75px !important;
-    width: 600px !important;
-    Position: absolute;
-    Top: 50%;
+/* recommended videos while watching */
+#secondary {
+  display: none !important;
 }
 
-#search {
-    height: 75px !important;
-    width: 600px !important;
-    Position: absolute;
-    Top: 50%;
-} */
+/* video description */
+#bottom-row {
+  display: none !important;
+}
+
+/* comments section */
+.ytd-item-section-renderer {
+  display: none !important;
+}
+
+/* Show More -> Video Recommendations */
+#infocards-section {
+  display: none !important;
+}
+
+/* like/dislike buttons */
+.ytd-segmented-like-dislike-button-renderer {
+  display: none !important;
+}
+
+/* Subscribe Button */
+.ytd-subscribe-button-renderer {
+  display: none !important;
+}
 
 /* media queries */
 @media screen and (min-width: 1100px) {
