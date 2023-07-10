@@ -90,6 +90,14 @@ ytd-mini-guide-renderer {
   display: none !important;
 }
 
+#sponsor-button {
+  display: none !important;
+}
+
+#chat {
+  display: none !important;
+}
+
 /* like/dislike buttons */
 .ytd-segmented-like-dislike-button-renderer {
   display: none !important;
