@@ -60,6 +60,11 @@ ytd-mini-guide-renderer {
   display: none !important;
 }
 
+/* video owner subscriber count */
+#owner-sub-count {
+  display: none !important;
+}
+
 .yt-chip-cloud-renderer {
   display: none !important;
 }
