@@ -63,7 +63,15 @@ chrome.action.onClicked.addListener(async (tab) => {
       // Reload the page to re-render the original CSS
       await chrome.tabs.reload(tab.id);
     }
-  } 
+  } else {
+    // remove badge
+    await chrome.action.setBadgeText({
+      tabId: tab.id,
+      text: ''
+    });
+
+    
+  }
 });
 
 
